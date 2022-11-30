@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    
+    <title>Contacto</title>
+</head>
+<body>
+  <header class="center">
+    <h1 id="cabecera"><span class="inicial">J</span>ORGE <span class="inicial">M</span>ARTIN</h1>
+    <img src="../assets/pictures/logotipoJm.jpg" id="logo" alt="Logo personal" width="80" height="80">
+    <nav class="center">
+
+        <ul>
+            <li><a class="navbar" href="./pages/biografia.html">BIOGRAPHY</a></li>
+            <li><a class="navbar" href="./pages/portfolio.html">PORTFOLIO </a></li>
+            <li><a class="navbar" href="../index.html">HOME </a></li>
+        </ul>
+    </nav>
+</header>
+
+    
+  <section id="contacto" class="centered-content">
+    <h2 class="center">Contactame</h2>
+    <form action="#" class="formulario-contacto">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Introduce texto..."></textarea>
+
+
+        <span>Interes es:</span>
+        <div>
+            <input type="radio" id="fullstack" name="type" value="area">
+            <label for="">FULLSTACK</label>
+
+            <input type="radio" id="css" name="gifts" value="gifts">
+            <label for="gifts">FRONTEND</label>
+
+            <input type="radio" id="party" name="party" value="party">
+            <label for="party">BACKEND</label>
+        </div>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <footer>
+        <p>&copy; Copyright 2022 HTML.am Portfolio Online de <span class="inicial">J</span>.<span class="inicial">M</span>artin
+    </footer>
+</section>
+</html>
